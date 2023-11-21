@@ -1,5 +1,13 @@
 
-# Ce fichier README explique le fonctionnement du Dockerfile.
+Pourquoi devriez-vous utiliser cette boîte à outils ?
+
+L'objectif de cette boîte à outils est de fournir aux pentesters, aux chercheurs en sécurité et bu hunters un environnement préconfiguré avec certains des outils et frameworks les plus populaires déjà installés et configurés.
+
+Cette boîte à outils offre une base multiplateforme avec laquelle travailler car le script peut être installé sur Linux, configuré avec Docker ou installé sur Windows avec WSL (Windows Subsystem For Linux).
+
+Le script d'installation peut être personnalisé pour ajouter ou supprimer des outils spécifiques en fonction de vos besoins.
+
+En plus des outils qui sont déjà installés, vous pouvez utiliser le script Katoolin pour installer des outils supplémentaires dont vous pourriez avoir besoin lors de vos engagements.
 
 Ce Dockerfile crée un conteneur avec une variété d'outils de test d'intrusion. Les outils sont installés dans le répertoire `/root/toolkit`.
 
